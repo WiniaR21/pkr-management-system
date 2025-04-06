@@ -1,0 +1,1 @@
+docker run -d --name pkr_postrgresql  -e POSTGRES_USER=pkr  -e POSTGRES_PASSWORD=pkr1234 -e POSTGRES_DB=pkr-management-system -p 5432:5432 postgres:13
